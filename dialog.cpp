@@ -31,7 +31,7 @@ void Dialog::on_sliderVolume_sliderMoved(int position)
 void Dialog::on_pushButton_clicked()
 {
    //load the file
-    player->setMedia(QUrl::fromLocalFile("C:/Users/Public/Music/Sample Music/Kalimba.mp3"));
+    player->setMedia(QUrl::fromLocalFile("C:/Users/Public/Music/Sample Music/Relinquish.mp3"));
     player->play();
     qDebug() << player->errorString();
 }
